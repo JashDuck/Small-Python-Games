@@ -1,5 +1,5 @@
 import random
-
+import os
 
 def intValidate(txtInput):
     while True:
@@ -49,7 +49,8 @@ def intWithCommas(x):
 
 
 def randWord():
-    with open("../../Data Files/wordList10000.txt", "r") as file:
+    __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
+    with open(os.path.join(__location__, "wordList10000.txt"), "r") as file:
         allText = file.read()
         words = list(map(str, allText.split()))
 
