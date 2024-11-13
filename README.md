@@ -17,3 +17,7 @@ Hangman
 Rock Paper Scissors
 - Type ROCK, PAPER, or SCISSORS
 - Exit the loop by typing quit
+
+Tic-Tac-Toe
+- Click the buttons after starting it
+- You might have to import pygame in order to play it
