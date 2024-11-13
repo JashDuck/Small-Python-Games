@@ -11,4 +11,9 @@ Goblin Slayer Game (No not the anime)
 - Use arrow keys to control the character
 - The bullet shoots in whatever direction you are facing
 
-  
+Hangman
+- Pretty self-explanitory
+
+Rock Paper Scissors
+- Type ROCK, PAPER, or SCISSORS
+- Exit the loop by typing quit
